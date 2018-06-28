@@ -1,0 +1,156 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1f202b;
+}
+
+
+/** GRID DEFINED **/
+.full-width {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 700px;
+  border: 3px solid red;
+  float: left;
+}
+
+.third-width {
+  width: 466px;
+  float: left;
+}
+
+/** END GRID **/
+
+h3 {
+  color: #ed1775;
+  text-align: center;
+  font-size: 36px;
+  font-family: "Source Code Pro";
+  text-transform: lowercase;
+  padding-top: 25px;
+}
+
+
+/**  HEADER SECTION **/
+header {
+  height: 800px;
+  background-image: url(../img/hero-background.png);
+}
+
+header h1 {
+  color: #ffffff;
+  font-size: 20px;
+  text-transform: lowercase;
+  font-family: 'Montserrat';
+}
+
+nav {
+  float: right; 
+  padding-left: 100px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 20px;
+  padding: 18px;
+}
+
+header h2 {
+  color: #ffffff;
+  font-family: "Source Code Pro";
+  text-align: left;
+  font-size: 72px;
+  clear: both;
+  padding: 75px 0;
+}
+
+#emphsis {
+  color: #ed1775;
+}
+
+/*** HEADER END ***/
+
+/*** PORTFOLIO BEGIN **/  
+
+
+#project1-img {
+   height: 350px;
+   width: 550px;
+}
+
+#portfolio h4 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #ffffff;
+  float: right;
+}
+
+#portfolio h5 {
+  font-family: 'Montserrat';
+  font-weight: normal;
+  color: #ffffff;
+  float: right;
+  clear: both;
+}
+
+#portfolio p {
+  font-weight: normal;
+  color: #ffffff;
+  clear: both; 
+}
+
+#project2-img {
+  height: 350px;
+  width: 550px;
+}
+
+/***  PORTFOLIO END  ****/
+
+/****  ABOUT BEGIN  ****/
+
+#about {
+  height: 550px;
+  background-image: url(../img/about-me.png);
+  clear: both;
+}
+
+
+#about p {
+  width: 600px;
+}
+
+/****  ABOUT END ****/
+
+/*** CONTACT BEGIN ***/
+#contact h4 {
+  color: #ffffff;
+  text-align: center;
+}
+
+#contact p {
+  color: #ffffff;
+  text-align: center;
+}
+
+#contact ul {
+  text-align: center;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul li img {
+  padding-right: 48px;
+}
+
+
+/**** CONTACT END  ***/
